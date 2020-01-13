@@ -1,20 +1,28 @@
 # Instalación de ordenadores para el curso de Adalab
 
+## Requerimientos mínimos del ordenador
+
 En el curso de programación front-end de Adalab necesitaremos usar un ordenador. Para poder realizar el curso de forma fluida, el ordenador debería tener estas características (no es obligatorio que las tenga, pero para que tengáis una orientación):
 
-- Al menos 8GB de RAM (con 4GB irá algo más lento pero también se puede)
-- Procesador i5 o similar con velocidad superior a 1GHz
-- Disco duro: recomendamos desde 128GB; si es SSD va a ir más fluido que si es HDD pero se puede tener más capacidad por menos precio
-- Tarjeta gráfica y pantalla: cualquiera pueden ir bien, aunque recomendamos pantalla de 15’ o como mínimo 13’ para poder programar junto a una compañera (con pantallas más pequeñas es posible pero se hace más complicado)
+- Al menos 8GB de RAM (con 4GB irá algo más lento pero también se puede).
+- Procesador i5 o similar con velocidad superior a 1GHz.
+- Disco duro: recomendamos desde 128GB; si es SSD va a ir más fluido que si es HDD pero se puede tener más capacidad por menos precio.
+- Tarjeta gráfica y pantalla: cualquiera pueden ir bien, aunque recomendamos pantalla de 15’ o como mínimo 13’ para poder programar junto a una compañera (con pantallas más pequeñas es posible pero se hace más complicado).
 
-Para poder realizar el curso el sistema operativo (SO) del ordenador debe ser Linux o Mac, y no es posible realizarlo con Microsoft Windows. Si no tienes un Mac con OSX o un PC con Linux (recomendamos Ubuntu), en la siguiente sección te explicamos cómo instalarlo.
+Para poder realizar el curso el sistema operativo (SO) del ordenador debe ser uno de los siguientes:
 
-## Instalación de Ubuntu
+- **Windows 10**
+- **Ubuntu 18**
+- **Mac**
 
-En primer lugar, para los PCs que no tengan un sistema operativo Linux, recomendamos instalar Ubuntu. Tenemos 2 opciones:
+## Instalación del sistema operativo
+
+### Ubuntu 18 (linux)
+
+Si quieres trabajar en Ubuntu y no lo tienes instalado a continuación te explicamos cómo hacerlo. Hay dos opciones:
 
 - Instalar Ubuntu borrando todo lo que hay en el ordenador (recomendada): esta opción es obligatoria para equipos viejos que no tienen recursos para tener a la vez Windows y Linux.
-- Instalar Ubuntu junto a Windows: crearemos una partición del disco duro del ordenador para instalar Ubuntu, y luego poder arrancar el ordenador desde el SO que elijamos; esta opción es más compleja y depende del ordenador concreto que tengáis que pueda hacerse o no.
+- Instalar Ubuntu junto a Windows: crearemos una partición del disco duro del ordenador para instalar Ubuntu y luego poder arrancar el ordenador desde el SO que elijamos. Esta opción es más compleja y depende del ordenador concreto que tengáis que pueda hacerse o no.
 
 > NOTA: Antes de proceder a la instalación es muy importante **hacer una copia de seguridad de los datos** que estén en el ordenador y que no queramos perder.
 
@@ -26,7 +34,7 @@ Si queremos mantener Windows, tendremos que hacer una partición:
 
 > NOTA: Al elegir instalar ubuntu, seleccionamos la opción de "opciones adicionales" para elegir en qué partición hacerlo. Una vez seleccionada la partición donde instalar Ubuntu, elegir que el gestor de arranque (bootloader) se instale en el disco duro principal en un desplegable abajo de la pantalla.
 
-### Problemas en la instalación de Ubuntu
+#### Problemas en la instalación de Ubuntu
 
 En equipos de la marca MSI, [suele haber problemas con los drivers de teclado / ratón en la instalación, de la tarjeta gráfico y/o de la conexión WiFi](https://gist.github.com/mari-linhares/cef4cb3440408e44963d1447a7db5ae0).
 
@@ -34,13 +42,43 @@ En algunos Asus, no funciona la conexión Wifi, y [hay que instalar los drivers]
 
 También encontramos otras incompatibilidades de hardware (ordenador) con Ubuntu, [como esta que nos ha sucedido](https://askubuntu.com/questions/38780/how-do-i-set-nomodeset-after-ive-already-installed-ubuntu).
 
+### Windows 10
+
+Si tienes Windows 10 debes instalar (un mini) Ubuntu dentro de tu Windows 10. Para ello:
+
+1. Desde el menú inicio de tu Windows busca y abre **Microsoft Store**.
+1. En el buscador del store busca **Ubuntu**.
+1. Instala **Ubuntu 18.04 LTS**.
+1. Verás que en tu menú inicio se habrá añadido un programa llamado **Ubuntu 18.04 LTS**.
+
+Una vez terminado debes:
+
+1. Desde el menú inicio de tu Windows busca y abre **Activar o desactivar las características de Windows**.
+1. Activa la opción **Subsistema de Windows para Linux**. Acepta y reinicia.
+
+Después de haber hecho estas dos cosas tu Windows contará con una consola (o terminal que es lo mismo) que funciona igual que si estuvieras trabajando en Linux.
+
+Por último:
+
+1. Instala VS Code (más abajo explicamos cómo hacerlo).
+1. Abre la configuración de VS Code.
+1. Busca la opción **Terminal > External: Windows exec**.
+1. Añade el texto **C:\windows\System32\cmd.exe**.
+
+Si tienes problemas para realizar alguno de estos pasos te ayudaremos durante la sesión de bienvenida del curso.
+
 ## Instalación de los programas
 
-Una vez preparado el sistema, instalaremos algunos programas para el curso. En Ubuntu los podemos instalar con la interfaz visual (instalador de programas) o desde la terminal usando `apt-get install`. En Mac, recomendamos usar [homebrew](https://brew.sh/) para instalar desde la terminal.
+Una vez preparado el sistema operativo, instalaremos algunos programas para el curso:
 
-### Instalación de Node JS
+### Node JS desde Windows 10
 
-Desde **Ubuntu** ejecutad las siguientes líneas en la terminal de una en una:
+1. Desde el menú inicio abre Ubuntu.
+1. Y sigue los pasos del siguiente apartado: Node JS desde Ubuntu.
+
+### Node JS desde Ubuntu
+
+Ejecuta las siguientes líneas en la terminal de una en una:
 
 ```bash
 sudo apt install curl
@@ -50,13 +88,17 @@ sudo apt install nodejs
 
 Para más información [consultar esta página](https://joshtronic.com/2018/05/08/how-to-install-nodejs-10-on-ubuntu-1804-lts/).
 
-Desde **Mac** ejecutad las siguiente línea en la terminal de una en una:
+### Node JS desde Mac
+
+Ejecuta la siguiente línea en la terminal:
 
 ```bash
 sudo brew install node@10
 ```
 
-Una vez terminada la instalación debemos comprobar que todo ha ido bien. Para ello ejecutaremos en la terminal la siguiente línea:
+### Node JS: comprobando si lo hemos instalado bien
+
+Una vez terminada la instalación de Node JS desde cualquiera de los 3 sistemas operativos debemos comprobar que todo ha ido bien. Para ello ejecutaremos en la terminal la siguiente línea:
 
 ```bash
 node --version
@@ -65,11 +107,14 @@ node --version
 Y la terminal debe mostrar la versión de Node JS instalada, algo como `v10.14.0`.
 Si por el contrario la terminal muestra el mensaje `No se ha encontrado la orden «node»...` es que algo hemos hecho mal.
 
-### Instalación de Git
+### Git desde Windows
 
-Queremos instalar la versión 2.x, para lo cual debemos seguir el [manual de esta página](https://git-scm.com/downloads).
+1. Desde el menú inicio abre Ubuntu.
+1. Y sigue los pasos del siguiente apartado: Git desde Ubuntu.
 
-Desde **Ubuntu** ejecutad las siguientes líneas en la terminal de una en una:
+### Git desde Ubuntu
+
+Ejecuta las siguientes líneas en la terminal de una en una:
 
 ```bash
 sudo apt update
@@ -77,21 +122,35 @@ sudo add-apt-repository ppa:git-core/ppa
 sudo apt install git
 ```
 
+### Git desde Mac
+
+Descarga e instala Git desde [esta página](https://git-scm.com/download/mac).
+
+### Git: comprobando si lo hemso instalado bien
+
 También debemos comprobar que Git se ha instalado correctamente la versión 2.x escribiendo en la terminal la siguiente línea:
 
 ```bash
 git --version
 ```
 
+Y la terminal debe mostrar la versión de Git instalada, algo como `git version 2.17.1`. Si por el contrario la terminal muestra el mensaje `No se ha encontrado la orden git...` es que algo hemos hecho mal.
+
 ### Otros programas
 
-Desde el instalador visual, podremos instalar el resto (última versión de todos):
+Necesitamos instalar VS Code, Chrome y Slack. Desde Windows y Mac podemos instalar estos programas accediendo a las siguientes páginas:
 
-- VSCode (https://code.visualstudio.com/)
+- VS Code (https://code.visualstudio.com/)
 - Chrome (https://www.google.com/chrome/)
 - Slack (https://slack.com/)
 
-También crearemos cuentas en estos servicios (elegid un nombre de usuario teniendo en mente que será parte de vuestro perfil profesional):
+Desde Ubuntu, la forma más cómoda es acceder al instalador de aplicaciones desde el menú, y ahí buscar cada programa e instalarlo.
+
+### Otras cuentas
+
+También crearemos cuentas en estos servicios (elegid un nombre de usuario teniendo en mente que será parte de vuestro futuro perfil profesional):
 
 - GitHub (https://github.com/)
 - Trello (https://trello.com/)
+
+> **Nota:** Si tienes algún problema durante la instalación, no te preocupes, díselo a tu profesora el primer día de clase.
