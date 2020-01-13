@@ -18,26 +18,27 @@ Buscar en Google nuestro problema es súper buena opción y aunque no hace falta
 Vamos a ver algunos ejemplos, cuando buscamos información y cuando buscamos un error concreto:
 
 ### Buscar información
-1) Nos suena que el método `split()` nos va a solucionar la vida pero no sabemos o no nos acordamos cómo usarlo, ni dónde estará la documentación:
+
+1. Nos suena que el método `split()` nos va a solucionar la vida pero no sabemos o no nos acordamos cómo usarlo, ni dónde estará la documentación:
 
 [js split](https://www.google.com/search?hl=en&q=js%20split)
 
-2) Estamos a tope con un tema de checkbox pero no nos aclaramos a comprobar cuándo un checkbox está marcado:
+2. Estamos a tope con un tema de checkbox pero no nos aclaramos a comprobar cuándo un checkbox está marcado:
 
 [js check if a checkbox is checked](https://www.google.com/search?hl=en&q=js%20check%20if%20a%20checkbox%20is%20checked%20)
 
-–¡Espera! este búsqueda no me sirve porque todos los resultados hablan de JQuery
+–¡Espera! esta búsqueda no me sirve porque todos los resultados hablan de JQuery
 Pues nada, sin JQuery:
 
 [js check if a checkbox is checked -jquery](https://www.google.com/search?hl=en&q=js%20check%20if%20a%20checkbox%20is%20checked%20-jquery)
 
 ### Buscar un error concreto
+
 A veces nos van a saltar errores que podríamos no entender. Una opción es copiar el error, meterlo entre cadenas y hacer una búsqueda a ver qué sale.
 
 En este ejemplo hemos intentado reasignar una constante y en la consola nos aparece `Assignment to constant variable.`. Vamos a suponer que no entendemos que pasa y nos vamos a nuestro buscador favorito:
 
-["Assignment to constant variable." javascript](https://www.google.com/search?hl=en&biw=1765&bih=1301&ei=nvAlXM1NsqDV8A_dubmYCg&q="Assignment+to+constant+variable."+javascript&oq="Assignment+to+constant+variable."+javascript&gs_l=psy-ab.3..0i30j0i8i30.58515.58515..59175...0.0..0.60.60.1......0....1j2..gws-wiz.5xG0VxGWq28)
-
+[Assignment to constant variable. javascript](https://www.google.com/search?q=Assignment+to+constant+variable.+javascript&oq=Assignment+to+constant+variable.+javascript&aqs=chrome..69i57j0l6.642j0j7&sourceid=chrome&ie=UTF-8)
 
 ### Filtrando por fecha
 
@@ -45,7 +46,7 @@ Cuando buscamos en Google es una buena idea filtrar por fecha para obtener resul
 
 Podemos hacerlo utilizando el menú bajo la caja de búsqueda y seleccionando 'Herramientas'.
 
-![Filtrar por fecha](../assets/images/guias/busqueda-por-fecha.png)
+![Filtrar por fecha](../assets/images/busqueda-por-fecha.png)
 
 Si la búsqueda no devuelve nada interesante, habría que modificar el filtro utilizando un intervalo personalizado de 3 o 4 años. Si esto sigue sin funcionar, toca quitar el filtro y buscar "a las bravas".
 

@@ -67,22 +67,9 @@
 
 - [Proyecto 1. Web grupal](proyectos/P1_proyecto_modulo_1.md)
 - [Anexo. Diseña tu web desde cero](proyectos/P1_anexo_diseno.md)
-- [Proyecto 2. Awesome profile-cards](proyectos/P2_proyecto_sprint_2.md)
-- [Anexo. Documentación del API de Awesome Profile Cards](proyectos/P2_anexo.md)
-- [Proyecto 3. Un caso de código heredado](proyectos/P3_proyecto_sprint_3.md)
-
-<!--
-## Formación online
-
-- [Presentación](formacion-continua/0_presentacion.md)
-- [Prueba técnica #1](formacion-continua/1_prueba_tecnica.md)
-- [Prueba técnica #2](formacion-continua/2_prueba_tecnica.md)
-- [Prueba técnica #3](formacion-continua/3_prueba_tecnica.md)
-- [Prueba técnica #4](formacion-continua/4_prueba_tecnica.md)
-- [Prueba técnica #5](formacion-continua/5_prueba_tecnica.md)
-- [Prueba técnica #6](formacion-continua/6_prueba_tecnica.md)
-- [Prueba técnica #7](formacion-continua/7_prueba_tecnica.md)
--->
+  <!-- - [Proyecto 2. Awesome profile-cards](proyectos/P2_proyecto_sprint_2.md) -->
+  <!-- - [Anexo. Documentación del API de Awesome Profile Cards](proyectos/P2_anexo.md) -->
+  <!-- - [Proyecto 3. Un caso de código heredado](proyectos/P3_proyecto_sprint_3.md) -->
 
 ## Guías
 
@@ -91,6 +78,7 @@
 - [Agile](guias/agile.md)
 - [Scrum](guias/scrum.md)
 - [Buenas prácticas para tener un portfolio atractivo en GitHub](guias/github_como_portfolio.md)
+- [Código de conducta en Adalab](CODE_OF_CONDUCT.md)
 
 <!--
 - [Pruebas técnicas](guias/pruebas_tecnicas.md)
