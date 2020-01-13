@@ -146,11 +146,11 @@ Necesitamos instalar VS Code, Chrome y Slack. Desde Windows y Mac podemos instal
 
 Desde Ubuntu, la forma más cómoda es acceder al instalador de aplicaciones desde el menú, y ahí buscar cada programa e instalarlo.
 
-### Otras cuentas
+> **Nota:** Si tienes algún problema durante la instalación, no te preocupes, díselo a tu profesora el primer día de clase.
 
-También crearemos cuentas en estos servicios (elegid un nombre de usuario teniendo en mente que será parte de vuestro futuro perfil profesional):
+## Creación de cuentas
+
+También debes crear cuentas en estos servicios (elegid un nombre de usuario teniendo en mente que será parte de vuestro futuro perfil profesional):
 
 - GitHub (https://github.com/)
 - Trello (https://trello.com/)
-
-> **Nota:** Si tienes algún problema durante la instalación, no te preocupes, díselo a tu profesora el primer día de clase.
