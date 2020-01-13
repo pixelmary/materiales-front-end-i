@@ -73,7 +73,7 @@
 
 ## Guías
 
-- [Instalación de ordenadores](guias/instalacion_ordenadores.md)
+- [Instalación de ordenadores](guias/instalacion_de_ordenadores.md)
 - [Guía para enfrentarse a problemas técnicos de manera autónoma](guias/busqueda_de_soluciones.md)
 - [Agile](guias/agile.md)
 - [Scrum](guias/scrum.md)
