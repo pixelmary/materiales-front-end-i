@@ -7,3 +7,7 @@
 - https://github.com/adalab/recursos-de-las-alumnas
 - https://github.com/adalab/ejercicios-extra
 - https://github.com/adalab/ejemplo-de-proyecto-personal
+
+## Plugins de VS Code que vamos usar durante el curso
+
+- https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
