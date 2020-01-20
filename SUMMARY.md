@@ -77,7 +77,6 @@
 - [Agile](guias/agile.md)
 - [Scrum](guias/scrum.md)
 - [Guía para enfrentarse a problemas técnicos de manera autónoma](guias/busqueda_de_soluciones.md)
-- [Buenas prácticas para tener un portfolio atractivo en GitHub](guias/github_como_portfolio.md)
 - [Código de conducta en Adalab](CODE_OF_CONDUCT.md)
 - [Instalación de ordenadores](guias/instalacion_de_ordenadores.md)
 
