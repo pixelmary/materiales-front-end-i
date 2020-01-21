@@ -4,6 +4,7 @@
 
 - https://github.com/adalab/ejercicios-en-clase-i
 - https://github.com/adalab/soluciones-alumnas-i
+- https://github.com/adalab/soluciones-alumnas-h
 - https://github.com/adalab/recursos-de-las-alumnas
 - https://github.com/adalab/ejercicios-extra
 - https://github.com/adalab/ejemplo-de-proyecto-personal
