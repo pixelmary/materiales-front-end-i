@@ -61,9 +61,13 @@ Después de haber hecho estas dos cosas tu Windows contará con una consola (o t
 Por último:
 
 1. Instala VS Code (más abajo explicamos cómo hacerlo).
-1. Abre la configuración de VS Code.
+1. Abre la configuración de VS Code pulsando en el icono de la tuerca (esquina inferior izquierda) y a continuación **Settings**.
 1. Busca la opción **Terminal > External: Windows exec**.
 1. Añade el texto **C:\windows\System32\cmd.exe**.
+1. Abre una terminal puslando en el menú superior > Terminal > New terminal
+1. La terminal se habrá abierto en la parte inferior de VS Code
+1. En dicha parte inferior hay un desplegable, ábrelo y pulsa en **Select default shell**.
+1. Selecciona la opción **WSL Bash**.
 
 Si tienes problemas para realizar alguno de estos pasos te ayudaremos durante la sesión de bienvenida del curso.
 
