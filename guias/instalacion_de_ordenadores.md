@@ -64,8 +64,7 @@ Por último:
 1. Abre la configuración de VS Code pulsando en el icono de la tuerca (esquina inferior izquierda) y a continuación **Settings**.
 1. Busca la opción **Terminal > External: Windows exec**.
 1. Añade el texto **C:\windows\System32\cmd.exe**.
-1. Abre una terminal puslando en el menú superior > Terminal > New terminal
-1. La terminal se habrá abierto en la parte inferior de VS Code
+1. Abre una terminal puslando en el menú superior > **Terminal** > **New terminal**: una nueva terminal se abrirá en la parte inferior de VS Code.
 1. En dicha parte inferior hay un desplegable, ábrelo y pulsa en **Select default shell**.
 1. Selecciona la opción **WSL Bash**.
 
