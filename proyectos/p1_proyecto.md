@@ -148,17 +148,17 @@ Para la gestión del proyecto, usaremos _historias de usuario_, que es una herra
 El formato de entrega de este proyecto será mediante la subida de este a la plataforma de GitHub. Para subirlo, se creará un repositorio **en la organización de Adalab**. El nombre del repositorio deberá estar compuesto de las siguientes partes, todo ello separado por guiones:
 
 - La palabra **project**.
-- Letra de la promoción **promo-h**.
+- Letra de la promoción **promo-x**.
 - Número del módulo **module-1**.
 - Número del equipo **team-1**.
 - Turno en inlés **morning** o **afternoon**.
 
 Por ejemplo:
 
-- Adalab/project-promo-h-module-1-team-1-morning
-- Adalab/project-promo-h-module-1-team-3-afternoon
+- Adalab/project-promo-x-module-1-team-1-morning
+- Adalab/project-promo-x-module-1-team-3-afternoon
 
-De manera adicional, se deberá activar "GitHub Pages" en el proyecto para que este pueda ser visualizado como una web, es decir, que en el caso anterior, si alguien introdujese la dirección "https://beta.adalab.es/project-promo-h-module-1-team-1-morning/" en un navegador web, este mostraría la web que se genera con el código del repositorio.
+De manera adicional, se deberá activar "GitHub Pages" en el proyecto para que este pueda ser visualizado como una web, es decir, que en el caso anterior, si alguien introdujese la dirección "https://beta.adalab.es/project-promo-x-module-1-team-1-morning/" en un navegador web, este mostraría la web que se genera con el código del repositorio.
 
 ## Presentación
 
