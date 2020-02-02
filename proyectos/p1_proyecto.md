@@ -158,7 +158,7 @@ Por ejemplo:
 - Adalab/project-promo-x-module-1-team-1-morning
 - Adalab/project-promo-x-module-1-team-3-afternoon
 
-De manera adicional, se deberá activar "GitHub Pages" en el proyecto para que este pueda ser visualizado como una web, es decir, que en el caso anterior, si alguien introdujese la dirección "https://beta.adalab.es/project-promo-x-module-1-team-1-morning/" en un navegador web, este mostraría la web que se genera con el código del repositorio.
+De manera adicional, se deberá activar "GitHub Pages" en el proyecto para que este pueda ser visualizado como una web, es decir, que en el caso anterior, si alguien introdujese la dirección https://beta.adalab.es/project-promo-x-module-1-team-1-morning/ en un navegador web, este mostraría la web que se genera con el código del repositorio.
 
 ## Presentación
 
@@ -204,4 +204,4 @@ Puedes probarlo en este [codepen](https://codepen.io/adalab/pen/mvNNeL).
 
 Saber diseñar una web no es un requisito previo para este curso. Tampoco es un objetivo del curso que aprendáis a hacerlo ni os lo exigiremos, por eso hemos preparado una breve guía para aprender a diseñar, para que os sirva como referencia para realizar el diseño de las página individuales y para daros los pasos y la información necesaria para llevar a cabo un diseño básico.
 
-[Guía para diseñar una web desde cero](./P1_anexo_diseno.md)
+[Guía para diseñar una web desde cero](./P1_anexo.md)
