@@ -87,7 +87,7 @@ El diseño lo podéis inspeccionar en [este proyecto de zeplin](https://zpl.io/b
 Podéis descargar los logos necesarios para completar el proyecto:
 
 - [Logo de Adalab](assets/images/logo-adalab.png)
-- [Logo de Awesome Profile-cards](https://github.com/Adalab/materiales-front-end-D/blob/master/proyectos/assets/images/logo-awesome-profile-cards.svg)
+- [Logo de Awesome Profile-cards](assets/images/logo-awesome-profile-cards.svg)
 
 ### Creatividad
 
