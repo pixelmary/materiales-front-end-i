@@ -204,4 +204,4 @@ Puedes probarlo en este [codepen](https://codepen.io/adalab/pen/mvNNeL).
 
 Saber diseñar una web no es un requisito previo para este curso. Tampoco es un objetivo del curso que aprendáis a hacerlo ni os lo exigiremos, por eso hemos preparado una breve guía para aprender a diseñar, para que os sirva como referencia para realizar el diseño de las página individuales y para daros los pasos y la información necesaria para llevar a cabo un diseño básico.
 
-[Guía para diseñar una web desde cero](./P1_anexo.md)
+[Guía para diseñar una web desde cero](./p1_anexo.md)
