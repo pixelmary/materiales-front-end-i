@@ -11,4 +11,7 @@
 
 ## Plugins de VS Code que vamos usar durante el curso
 
-- https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+- [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Live share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+- [Formateador Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Code validator](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
