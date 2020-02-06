@@ -608,7 +608,7 @@ Haz clic en el siguiente enlace [https://classroom.github.com/a/cdZUSdeT](https:
 
 ## Más ejercicios de la terminal
 
-### EJERCICIO 11
+#### EJERCICIO 11
 
 A través de la terminal entra en la carpeta del ejercicio 1 y investiga el comando `ls` para conseguir:
 
@@ -619,14 +619,14 @@ A través de la terminal entra en la carpeta del ejercicio 1 y investiga el coma
 
 En cada caso mira detenidamente toda la información que muestra la columna.
 
-### EJERCICIO 12
+#### EJERCICIO 12
 
 A través de la terminal:
 
 - Copia la carpeta `rutas-relativas` del ejercicio 2 en la carpeta `rutas-relativas-2`.
 - Copia la carpeta `rutas-relativas` del ejercicio 2 en la carpeta `rutas-relativas-3` con la opción `verbose` y observa qué aparece en la terminal.
 
-### EJERCICIO 13
+#### EJERCICIO 13
 
 A través de la terminal:
 
