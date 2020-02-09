@@ -346,7 +346,9 @@ Por defecto, cada vez que intentamos conectarnos con GitHub, el servidor de GitH
 
 Para poder almacenar la contraseña de GitHub en Ubuntu, realizaremos los siguientes comandos uno por uno:
 
-`sudo apt-get install libsecret-1-0 libsecret-1-dev`
+```shell
+sudo apt-get install libsecret-1-0 libsecret-1-dev
+```
 
 Nos solicitará una contraseña, aquí debemos introducir la contraseña de nuestro ordenador, no la de GitHub.
 
