@@ -106,7 +106,7 @@ Esto nos dice que el usuario de nuestro equipo es **ubuntu**, que nuestro equipo
 Principalmente usaremos la terminal para movernos por el sistema de archivos del ordenador. Así que es fundamental saber dónde estamos en cada momento. El comando `pwd` (_Print Working Directory_) se encargará de mostrarnos en qué carpeta nos encontramos.
 
 ```shell
-$ pwd
+pwd
 ```
 
 > **NOTA**: Muchas veces nos encontraremos los comandos que tenemos que introducir precedidos por el símbolo `$`, pero no hay que escribirlo.
@@ -142,7 +142,7 @@ Podemos usar la opción especial `ls -a` para listar también los ficheros y car
 El comando `cd` (Change Directory) nos ofrece diferentes posibilidades a la hora de cambiar de carpeta:
 
 ```shell
-$ cd nombre-de-carpeta
+cd nombre-de-carpeta
 ```
 
 Nos permite entrar en la carpeta `nombre-de-carpeta` que estaría en nuestra carpeta actual.
@@ -150,7 +150,7 @@ Nos permite entrar en la carpeta `nombre-de-carpeta` que estaría en nuestra car
 Podemos encadenar varios nombres de subcarpetas separadas por `/` para llegar hasta una ruta más profunda:
 
 ```shell
-$ cd nombre-de-carpeta/carpeta-hija/carpeta-nieta
+cd nombre-de-carpeta/carpeta-hija/carpeta-nieta
 ```
 
 > **NOTA**: la terminal de comandos nos permite autocompletar los comandos como `cd` usando la tecla tabulador (Tab); por ejemplo, si escribimos `cd a` y damos a tabulador, aparecerán las opciones de carpetas o ficheros en la carpeta actual que comienza por 'a'.
@@ -158,7 +158,7 @@ $ cd nombre-de-carpeta/carpeta-hija/carpeta-nieta
 ---
 
 ```shell
-$ cd /ruta/absoluta/a/una/carpeta
+cd /ruta/absoluta/a/una/carpeta
 ```
 
 También podemos escribir la ruta absoluta desde la raíz de nuestro equipo `/` a la carpeta a la que queremos entrar.
@@ -166,7 +166,7 @@ También podemos escribir la ruta absoluta desde la raíz de nuestro equipo `/` 
 ---
 
 ```shell
-$ cd
+cd
 ```
 
 `cd` solo nos devuelve a la carpeta de nuestro usuario (esta es la localización por defecto donde se abrirá nuestra terminal)
@@ -174,7 +174,7 @@ $ cd
 ---
 
 ```shell
-$ cd ..
+cd ..
 ```
 
 `..` nos permite subir un nivel, esto es, ir a la carpeta que contiene nuestra carpeta actual
@@ -182,7 +182,7 @@ $ cd ..
 ---
 
 ```shell
-$ cd -
+cd -
 ```
 
 Este comando permite "deshacer" el último cd realizado: vuelve a la localización anterior al último cambio de carpeta.
@@ -194,7 +194,7 @@ Nos permite crear una carpeta. PERO NO ENTRA EN LA CARPETA NUEVA.
 Si no especificamos una ruta se creará en la localización actual pero se puede indicar la ruta usando `/` y `..`. Por ejemplo, vamos a crear una carpeta "proyecto" en la carpeta madre de la carpeta actual:
 
 ```shell
-$ mkdir ../proyecto
+mkdir ../proyecto
 ```
 
 **TOUCH**
@@ -204,7 +204,7 @@ Nos permite crear un nuevo archivo.
 Si no especificamos una ruta se creará en la localización actual pero se puede indicar la ruta usando `/` y `..`. Por ejemplo, vamos a crear un archivo "index.html" en la carpeta actual (estará vacío):
 
 ```shell
-$ touch index.html
+touch index.html
 ```
 
 **CLEAR**
@@ -218,7 +218,7 @@ Si queremos copiar o mover archivos usaremos los comandos `cp` o `mv`. El format
 Vamos a mover el archivo index.html de nuestra carpeta actual a la carpeta madre:
 
 ```shell
-$ mv index.html ../index.html
+mv index.html ../index.html
 ```
 
 > **NOTA**: `mv` también sirve para renombrar ficheros o carpetas
@@ -228,7 +228,7 @@ $ mv index.html ../index.html
 A veces nos interesará abrir nuestra carpeta actual en el explorador de archivos (que en Ubuntu se llama Nautilus) y esto se puede hacer fácilmente desde la terminal con el comando:
 
 ```shell
-$ nautilus .
+nautilus .
 ```
 
 y sí, `$ nautilus ..` nos abrirá nuestra carpeta madre en el explorador de archivos ;)
@@ -248,19 +248,19 @@ Si queremos buscar un comando en el historial, podemos usar Ctrl + R y comenzar 
 Si no sabemos cómo funciona un comando pediremos ayuda al terminal. Por ejemplo para saber cómo funciona el comando LS escribimos:
 
 ```shell
-$ ls --help
+ls --help
 ```
 
 El terminal mostrará una explicación de cómo se utiliza el comando y las opciones que se pueden utilizar. Con esta información sabremos que para listar el contenido de un directorio en orden inverso podemos escribir:
 
 ```shell
-$ ls --reverse
+ls --reverse
 ```
 
 o
 
 ```shell
-$ ls -r
+ls -r
 ```
 
 ---
@@ -323,7 +323,7 @@ Abrimos la aplicación de la terminal e introducimos el siguiente comando, tal y
 **Importante:** Escribiremos nuestro nombre entre comillas para evitar problemas a la hora de ejecutar el comando.
 
 ```shell
-$ git config --global user.name "John Doe"
+git config --global user.name "John Doe"
 ```
 
 **3. Configuramos nuestro email para trabajar con Git**
@@ -331,7 +331,7 @@ $ git config --global user.name "John Doe"
 Ahora introducimos el siguiente comando para guardar la configuración de nuestro email:
 
 ```shell
-$ git config --global user.email "johndoe@example.com"
+git config --global user.email "johndoe@example.com"
 ```
 
 Sustituiremos en este caso `"johndoe@example.com"` por el email que **hemos utilizado para crear nuestra cuenta de GitHub**.
@@ -352,13 +352,21 @@ sudo apt-get install libsecret-1-0 libsecret-1-dev
 
 Nos solicitará una contraseña, aquí debemos introducir la contraseña de nuestro ordenador, no la de GitHub.
 
-2º `cd /usr/share/doc/git/contrib/credential/libsecret`
+```shell
+cd /usr/share/doc/git/contrib/credential/libsecret
+```
 
-3º `sudo make`
+```shell
+sudo make
+```
 
-4º `cd -`
+```shell
+cd -
+```
 
-5º `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret`
+```shell
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+```
 
 Al hacer esto, la próxima vez que introduzcamos nuestra contraseña de GitHub, esta se almacenará de forma segura en nuestro ordenador y no será necesario volver a introducirla de nuevo.
 
@@ -369,7 +377,7 @@ Una vez hayamos realizado ese paso, no necesitaremos hacer ningún cambio más.
 Para poder almacenar la contraseña de GitHub en Mac, simplemente ejecutamos el siguiente comando:
 
 ```shell
-$ git config --global credential.helper osxkeychain
+git config --global credential.helper osxkeychain
 ```
 
 Una vez hayamos realizado ese paso, no necesitaremos hacer ningún cambio más.
@@ -379,7 +387,7 @@ Una vez hayamos realizado ese paso, no necesitaremos hacer ningún cambio más.
 **Nano** es un editor de texto que suele venir por defecto en Ubuntu en la terminal. Queremos que sea nuestro editor por defecto para trabajar con Git. Para ello abrimos la terminal e introducimos el siguiente comando. Una vez lo hayamos introducido, pulsamos intro para que se ejecute.
 
 ```shell
-$ git config --global core.editor nano
+git config --global core.editor nano
 ```
 
 El editor por defecto en otros sistemas operativos es otro, pero en este curso vamos a utilizar siempre Nano para trabajar todas de la misma manera.
@@ -444,15 +452,15 @@ testing-git
 Una vez creado el proyecto con el HTML y el CSS indicado. Inicializa el repositorio Git en el proyecto (asegurate de que estás en la carpeta testing-git), añade los archivos y haz el primer commit con el mensaje `Initial commit`
 
 ```shell
-$ git init
+git init
 ```
 
 ```shell
-$ git add -A
+git add -A
 ```
 
 ```shell
-$ git commit -m "Initial commit"
+git commit -m "Initial commit"
 ```
 
 ---
@@ -515,7 +523,7 @@ Esto nos generará una carpeta con nuestro proyecto. **Recordad que crea la carp
 > Por defecto git nos creará una carpeta con un nombre automático, si queremos un nombre específico para la carpeta de nuestro proyecto podemos declararlo tras la url que nos da GitHub:
 
 ```shell
-$ git clone url-del-repositorio-que-me-da-github nuevo-nombre-de-carpeta
+git clone url-del-repositorio-que-me-da-github nuevo-nombre-de-carpeta
 ```
 
 Ahora tenemos un repositorio local en la carpeta en la que hemos clonado nuestro nuevo repositorio remoto.
