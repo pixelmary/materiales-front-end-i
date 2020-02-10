@@ -32,7 +32,7 @@ _Git_ será la herramienta que utilizaremos para realizar un control de versione
 
 GitHub es la plataforma social más famosa a la hora de publicar y colaborar en desarrollo de código. Además, permite guardar en un servidor nuestro código y sincronizarlo con el código que tendremos en nuestro ordenador. Todo esto lo hace apoyándose en git.
 
-Otra cosa que veremos durante la sesión es el servicio de GitHub Pages que ofrece GitHub. Este servicio nos permite publicar nuestro código como si se tratase de un sitio web y que la gente pueda verlo en internet desde cualquier parte del mundo. Al final de esta sesión veremos cómo habilitarlo para poder mostrar al mundo nuestra primera página web.
+Otra cosa que veremos durante la sesión es el servicio de GitHub Pages que ofrece GitHub. Este servicio nos permite publicar nuestro código como si se tratase de un sitio web y que la gente pueda verlo en Internet desde cualquier parte del mundo. Al final de esta sesión veremos cómo habilitarlo para poder mostrar al mundo nuestra primera página web.
 
 ## Resumen de la sesión
 
@@ -70,7 +70,7 @@ Por poneros un ejemplo que hayáis vivido en vuestra piel, tendría sentido util
 
 Respecto a GitHub, lo utilizaremos siempre que queramos compartir un código con el resto de la comunidad o si queremos tenerlo en lo que se llama "la nube" para no perderlo y que cualquier persona con acceso y permisos de escritura pueda editarlo desde cualquier parte del mundo.
 
-Por último, GitHub Pages, al ser un servicio gratuito y sencillo para publicar páginas, es un recurso muy útil si queremos colgar en internet algún proyecto de forma gratuita.
+Por último, GitHub Pages, al ser un servicio gratuito y sencillo para publicar páginas, es un recurso muy útil si queremos colgar en Internet algún proyecto de forma gratuita.
 
 Es importante saber que todos los servicios de GitHub son gratuitos tanto repositorios públicos como privados. Por el momento como queremos darle visibilidad al código y que otras personas puedan verlo, no tendremos ningún problema en que nuestro código sea público.
 
@@ -278,7 +278,7 @@ nombre
 ```
 
 - En el archivo **mis-datos.txt** vamos a escribir el Nombre y la comida favorita.
-- En el archivo **ruta_del-proyecto.txt** pondremos la ruta del archivo desde nuestra carpeta de `Documentos`
+- En el archivo **ruta-del-proyecto.txt** pondremos la ruta del archivo desde nuestra carpeta de `Documentos`
 - Mover los dos archivos a la carpeta principal, que sería **nombre**
 
 ---
@@ -418,7 +418,7 @@ En el video que añadimos a continuación se explican los comandos básicos para
 
 Es importante acompañar el commit con un mensaje. Este mensaje debe ser suficientemente corto para que no sea una locura leerlo y, a la vez, explique qué cambio se ha hecho de forma clara.
 
-Normalmente trabajaremos con otras compañeras en un mismo proyecto y será fundamental que todas entiendan que se ha hecho en cada paso para poder trabajar de forma más rápida y no tener que estar preguntando qué es cada cosa.
+Normalmente trabajaremos con otras compañeras en un mismo proyecto y será fundamental que todas entiendan qué se ha hecho en cada paso para poder trabajar de forma más rápida y no tener que estar preguntando qué es cada cosa.
 Crear mensajes claros en los commits, nos servirá también para que si volvemos a ver un commit del pasado, podamos entender qué es lo que hicimos.
 
 A la hora de escribir un mensaje para un commit hay múltiples maneras de plantearlo e infinidad de guías. Como estamos empezando tengamos en cuenta sólo la siguiente serie de normas para crear un mensaje lo suficientemente bueno:
@@ -499,7 +499,7 @@ Poneros, ambas compañeras, una imagen de perfil en vuestras cuentas de GitHub. 
 
 ---
 
-Hasta ahora sabemos crear un repositorio git local, ahora vamos a ver como creamos un repositorio remoto en GitHub, de esta forma podremos acceder al código desde cualquier equipo y podremos colaborar con nuestras compañeras.
+Hasta ahora sabemos crear un repositorio git local, ahora vamos a ver cómo creamos un repositorio remoto en GitHub, de esta forma podremos acceder al código desde cualquier equipo y podremos colaborar con nuestras compañeras.
 
 Para ello, nos vamos a nuestro perfil y buscamos el botón `+` para crear un nuevo repositorio:
 
@@ -535,7 +535,7 @@ Podemos crear archivos y/o realizar cambios sobre los existentes, guardarlos en 
 
 A la hora de conectar el repo local y el remoto lo mas cómodo es empezar creando el repo en GitHub, clonándolo y seguir a partir de ahí con la conexión ya hecha. Pero puede pasar que ya tuviésemos un proyecto en local que hubiésemos inicializado con `git init`, en este caso seguiremos estos pasos:
 
-1. Creamos un repo vacío en GitHub **SIN INICIALIZARLO CON README.ME, GITIGNORE O LICENCIA**.
+1. Creamos un repo vacío en GitHub **SIN INICIALIZARLO CON README.md, GITIGNORE O LICENCIA**.
 2. Esto nos llevará a una página diferente con las instrucciones para conectar un repo local con nuestro repo remoto:
 
 ![Nuevo repositorio](assets/images/1-7/github-repo-5.png)
@@ -585,7 +585,7 @@ Puesto que trabajamos en parejas o en grupos queremos trabajar con el mismo cód
 
 Como hemos comentado previamente, GitHub ofrece un servicio llamado [GitHub Pages](https://pages.GitHub.com) que pueden utilizar los usuarios como hosting gratuito para los proyectos que estén alojados en GitHub.
 
-Un hosting es un servicio de almacenamiento de datos para poder tener tu web en un servidor y que esté disponible en internet y esto es lo que ofrece exactamente GitHub Pages.
+Un hosting es un servicio de almacenamiento de datos para poder tener tu web en un servidor y que esté disponible en Internet y esto es lo que ofrece exactamente GitHub Pages.
 
 ---
 
