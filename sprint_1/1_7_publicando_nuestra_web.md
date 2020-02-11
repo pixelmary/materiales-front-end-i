@@ -374,7 +374,7 @@ Una vez hayamos realizado ese paso, no necesitaremos hacer ningún cambio más.
 
 **En Windows**
 
-Para poder almacenar la contraseña de GitHub en Windows, realizaremos los siguientes comandos uno por uno, en la terminal de Ubuntu:
+Para poder almacenar la contraseña de GitHub en Windows, realizaremos los siguientes comandos uno por uno, en la terminal de Ubuntu que instalamos el primer día del curso en la [instalación de ordenadores](../guias/instalacion_de_ordenadores#windows-10):
 
 ```shell
 sudo apt-get install libsecret-1-0 libsecret-1-dev
