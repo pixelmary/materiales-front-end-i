@@ -372,7 +372,7 @@ Al hacer esto, la próxima vez que introduzcamos nuestra contraseña de GitHub, 
 
 Una vez hayamos realizado ese paso, no necesitaremos hacer ningún cambio más.
 
-**En Windows**
+**En Windows 10**
 
 Para poder almacenar la contraseña de GitHub en Windows, realizaremos los siguientes comandos uno por uno, en la terminal de Ubuntu que instalamos el primer día del curso en la [instalación de ordenadores](../guias/instalacion_de_ordenadores#windows-10):
 
