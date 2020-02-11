@@ -372,6 +372,36 @@ Al hacer esto, la próxima vez que introduzcamos nuestra contraseña de GitHub, 
 
 Una vez hayamos realizado ese paso, no necesitaremos hacer ningún cambio más.
 
+**En Windows**
+
+Para poder almacenar la contraseña de GitHub en Windows, realizaremos los siguientes comandos uno por uno, en la terminal de Ubuntu:
+
+```shell
+sudo apt-get install libsecret-1-0 libsecret-1-dev
+```
+
+Nos solicitará una contraseña, aquí debemos introducir la contraseña que pusimos cuando instalamos Ubuntu dentro de Windows, no la de GitHub.
+
+```shell
+cd /usr/share/doc/git/contrib/credential/libsecret
+```
+
+```shell
+sudo make
+```
+
+```shell
+cd -
+```
+
+```shell
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"`
+```
+
+Al hacer esto, la próxima vez que introduzcamos nuestra contraseña de GitHub, esta se almacenará de forma segura en nuestro ordenador y no será necesario volver a introducirla de nuevo.
+
+Una vez hayamos realizado ese paso, no necesitaremos hacer ningún cambio más.
+
 **En Mac**
 
 Para poder almacenar la contraseña de GitHub en Mac, simplemente ejecutamos el siguiente comando:

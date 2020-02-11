@@ -110,11 +110,6 @@ node --version
 Y la terminal debe mostrar la versión de Node JS instalada, algo como `v10.14.0`.
 Si por el contrario la terminal muestra el mensaje `No se ha encontrado la orden «node»...` es que algo hemos hecho mal.
 
-### Git desde Windows
-
-1. Desde el menú inicio abre Ubuntu.
-1. Y sigue los pasos del siguiente apartado: Git desde Ubuntu.
-
 ### Git desde Ubuntu
 
 Ejecuta las siguientes líneas en la terminal de una en una:
@@ -124,6 +119,12 @@ sudo apt update
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt install git
 ```
+
+### Git desde Windows
+
+1. Desde el menú inicio abre Ubuntu.
+1. Y sigue los pasos del siguiente apartado: Git desde Ubuntu.
+1. Y también descarga e instala [Git para Windows](https://git-scm.com/download/win).
 
 ### Git desde Mac
 
