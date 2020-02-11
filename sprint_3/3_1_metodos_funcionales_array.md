@@ -22,7 +22,7 @@
 ## Introducción
 
 En esta sesión vamos a ver cómo trabajar con arrays de forma eficiente en JavaScript. Hasta ahora hemos trabajado con arrays y conocemos algunos métodos del objeto array, como `push` para meter nuevos elementos en el array
-o `join` para unir todos los elementos de un array en una cadena. Y cuando queremos acceder todos los elementos de un array, usamos un bucle para recorrerlo. Pero en esta sesión vamos a aprender a realizar acciones con varios elementos de un array pero sin necesidad de bucles, usando los denominados _métodos funcionales_ de array. Se llaman métodos funcionales porque están alineados con una forma de programar que da mucha importancia a las funciones... ¡nuestras amigas las funciones!
+o `join` para unir todos los elementos de un array en una cadena. También sabemos que para recorrer un array debemos usar un bucle, así podremos acceder a cada uno de sus elementos. En esta sesión vamos a aprender a realizar acciones usando los denominados _métodos funcionales_ de array. Se llaman métodos funcionales porque están alineados con una forma de programar que da mucha importancia a las funciones... ¡nuestras amigas las funciones!
 
 ## ¿Para qué sirve lo que vamos a ver en esta sesión?
 
@@ -30,7 +30,7 @@ Usar los métodos funcionales de array nos sirve para poder operar con los valor
 
 ## ¿En qué casos se utiliza?
 
-Los métodos funcionales de array pueden ser utilizados en cualquier aplicación que trabaje con arrays, y es muy usado en entornos concretos como React, una tecnología que veremos más adelante en el curso.
+Los métodos funcionales de array pueden ser utilizados en cualquier aplicación que trabaje con arrays, y es muy usado en entornos concretos como React.
 
 Con estos métodos funcionales podemos realizar las mismas acciones para las que necesitaríamos un bucle, por ejemplo:
 
@@ -75,7 +75,7 @@ console.log(capitalNames);
 
 En este caso ejecutamos el método `map` sobre el array de nombres `names`. A `map` le pasamos un único parámetro que es una función que se va a aplicar sobre cada elemento del array. Esta función (que hemos decidido hacer con una `arrow function`) toma como parámetro el elemento del array, al que hemos llamado `name`. Nosotros no ejecutamos esta función, sino que solo se la pasamos como parámetro a `map`, justo de la misma forma que hacíamos con los callbacks, y será `map` quien la ejecute pasándoles como argumento cada elemento del array. Dentro de la función tenemos el elemento del array (el nombre, por ejemplo, en primer lugar 'María') sobre el que ejecutamos directamente el método `toUppercase` (pasar a mayúscula). Devolvemos (con un `return` implícito) el resultado para que pase al array de resultados `capitalNames`. En este caso nosotros no hemos tenido que crear el array `capitalNames` a mano sino que `map` lo crea directamente porque así es como funciona: devuelve un array del mismo tamaño que el original con el resultado de aplicar una función a cada elemento del array.
 
-> **NOTA**: es importante recordar que el array resultante de aplicar map va a ser siempre de la misma longitud que el array original.
+> **NOTA**: Recuerda que el array resultante de aplicar map va a ser siempre de la misma longitud que el array original.
 
 Es importante recordar que el único argumento que recibe la función `map` (al igual que resto de funciones que vamos a ver hoy) es una función. Y para que se entienda perfectamente vamos a rehacer el ejemplo anterior sustiyendo el código `name => name.toUpperCase()` por la función `getUperCaseName`:
 
@@ -95,7 +95,7 @@ console.log(capitalNames);
 
 **Inflar las notas**
 
-¡Ya tenemos las notas del examen! Los profes, como somos así, las hemos metido en un array: `const marks = [5, 4, 6, 7, 9];`. Casi todo el mundo lo ha hecho bastante bien pero... vamos a hacer un poco de trampa de la buena :) Vamos a modificar las notas de todas para añadirles 1 punto, ¿no? Pues usemos nuestro reciente amigo `map` para crear un nuevo array `inflatedMarks` con las notas modificadas. Finalmente, mostraremos en la consola las notas modificadas para ver que funciona correctamente. ¡Al lío!
+¡Ya tenemos las notas del examen! Los profes, como somos así, las hemos metido en un array: `const marks = [5, 4, 6, 7, 9];`. Casi todo el mundo lo ha hecho bastante bien pero... vamos a hacer un poco de trampa de la buena :) Vamos a modificar las notas de todas para añadirles 1 punto. Usemos nuestro reciente amigo `map` para crear un nuevo array `inflatedMarks` con las notas modificadas. Finalmente, mostraremos en la consola las notas modificadas para ver que funciona correctamente. ¡Al lío!
 
 ---
 
@@ -103,7 +103,7 @@ console.log(capitalNames);
 
 **Saludar es de buena educación**
 
-Estamos creando una aplicación web, y lo primero que queremos hacer es saludar al usuario por su nombre, ¡como es debido! Tenemos un array con el listado de usuarios de nuestra aplicación `const names = ['María', 'Lucía', 'Susana', 'Rocío', 'Inmaculada'];` y queremos conseguir otro array con los saludos, por ejemplo, _'Bienvenida Yolanda'_. ¿Podríamos usar `map` para que nos echase una mano?
+Estamos creando una aplicación web, y lo primero que queremos hacer es saludar al usuario con su nombre, ¡como es debido! Tenemos un array con el listado de usuarios de nuestra aplicación `const names = ['María', 'Lucía', 'Susana', 'Rocío', 'Inmaculada'];` y queremos conseguir otro array con los saludos, por ejemplo, _'Bienvenida Yolanda'_. ¿Podríamos usar `map` para que nos echase una mano?
 
 ---
 
@@ -126,7 +126,6 @@ const users = [
   { name: 'Inmaculada', isPremium: false },
 ];
 ```
-
 ---
 
 ### filter
