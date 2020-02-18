@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Intro a React I](README.md)
+* [2. Intro a React I](README.md)
 

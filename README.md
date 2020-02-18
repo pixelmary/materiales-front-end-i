@@ -1,4 +1,4 @@
-# Intro a React I
+# 2. Intro a React I
 
 ## Introducción
 
