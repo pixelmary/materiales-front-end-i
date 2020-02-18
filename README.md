@@ -1,4 +1,4 @@
-# 3.2 Intro a React I
+# Intro a React I
 
 ## Introducción
 
@@ -22,7 +22,7 @@ Pero, _¿qué es el estado de una aplicación web?_ Una aplicación web, a difer
 
 Volviendo a los frameworks y librerías, estos nos facilitan sincronizar el estado \(los datos\) con la interfaz \(lo que se ve en la pantalla\). Vamos a verlo con un ejemplo que ya conocemos: el juego de adivinar el número del módulo anterior. Necesitamos bastante código para tener sincronizado el estado del juego \(el _feedback_ sobre un intento y el número de intentos\) con la interfaz.
 
-```jsx
+```text
 function showFeedback(text) {
   const feedbackContainer = document.querySelector(".feedback");
   feedbackContainer.innerHTML = text;
@@ -126,7 +126,7 @@ Es el único fichero HTML que usaremos en nuestra aplicación. Podemos modificar
 
 Este será el fichero JS de entrada a nuestra aplicación React. Será el único en el que carguemos `ReactDOM` y se encarga de acceder a un nodo del DOM \(el `div` que antes identificamos como `root`\) e importar y pintar el componente principal de la aplicación, en este caso, llamado `App`.
 
-```jsx
+```text
 import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
@@ -138,7 +138,7 @@ Para pintar el componente `App` usamos una sintaxis un poco rara: _¡es como si 
 
 Este fichero corresponde a nuestro primer _componente_ de React, pero ya veremos qué es un componente más adelante. De momento, vamos a pensar que quizá al modificar el archivo `App.js` os haya sorprendido algo. _"¿Eso no era una etiqueta HTML? ¡Pero si es una función de Javascript!"_:
 
-```jsx
+```text
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -251,6 +251,7 @@ const appRoot = (
 );
   
 return appRoot;
+
 ```
 
 > NOTA: Si escribimos el contenido de nuestro `return` en la misma línea, no necesitamos usar paréntesis a continuación, en caso contrario, necesitaremos envolver el contenido de nuestro `return` entre paréntesis.
